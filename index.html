@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#611232" name="theme-color"/>
+  <title>
+   + Vale Prevenir | Revista Digital ISSSTE
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+  <link rel="icon" type="image/svg+xml"
+      href="assets/icons/favicon.svg">
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="head-inner">
+    <a aria-label="Ir al inicio de + Vale Prevenir" class="brand" href="#inicio">
+      <img class="logo-issste" src="assets/logos/issste.svg" alt="ISSSTE" />
+      <span class="brand-sep" aria-hidden="true"></span>
+      <span class="brand-copy">
+        <img class="logo-revista" src="assets/logos/vale-prevenir-mono.svg" alt="+ Vale Prevenir" />
+      </span>
+    </a>
+    <button aria-expanded="false" aria-label="Mostrar men&uacute;" class="mobile-menu" id="menuBtn">
+     ☰
+    </button>
+    <nav id="nav">
+     <a href="#inicio">
+      Inicio
+     </a>
+     <a href="#contenidos">
+      En esta edici&oacute;n
+     </a>
+     <a href="#hemeroteca">
+      Hemeroteca
+     </a>
+     <a href="#acerca">
+      Acerca de
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="inicio">
+   <section class="hero">
+    <div class="hero-inner">
+     <div class="cover-wrap">
+      <div class="cover-glow">
+      </div>
+      <button aria-label="Leer edici&oacute;n de marzo de 2026" class="cover-button" id="openCover">
+       <img alt="Portada original de + Vale Prevenir, marzo de 2026" class="cover" id="heroCoverImage" src="assets/portada.png"/>
+      </button>
+      <span class="cover-caption" id="heroEditionCaption">
+       EDICI&Oacute;N &middot; MARZO 2026
+      </span>
+     </div>
+     <div class="hero-copy">
+      <span class="eyebrow">
+       <span class="dot">
+       </span>
+       EDICI&Oacute;N M&Aacute;S RECIENTE
+      </span>
+      <h1>
+       La prevenci&oacute;n tambi&eacute;n
+       <em>
+        se lee.
+       </em>
+      </h1>
+      <div class="accent-line">
+      </div>
+      <p class="edition-name" id="heroEditionName">
+       Marzo, mes de la salud de la mujer
+      </p>
+      <p class="hero-desc" id="heroDescription">
+       Explora la edici&oacute;n de marzo de
+       <strong>
+        + Vale Prevenir
+       </strong>
+       , una publicaci&oacute;n de la Subdirecci&oacute;n de Prevenci&oacute;n y Protecci&oacute;n a la Salud del ISSSTE. Conoce informaci&oacute;n para el cuidado de tu salud y el bienestar.
+      </p>
+      <div class="hero-actions">
+       <button class="btn primary" id="readNow">
+        <span class="ui-icon icon-book" aria-hidden="true"></span> Leer revista
+       </button>
+       <a class="btn secondary" id="heroDownload" download="" href="assets/revista-marzo-2026.pdf">
+        <span class="ui-icon icon-download" aria-hidden="true"></span> Descargar PDF
+       </a>
+      </div>
+      <div class="hero-meta" id="heroMeta">
+       <span>
+        ◫ 58 p&aacute;ginas
+       </span>
+       <span>
+        &bull;
+       </span>
+       <span>
+        Marzo de 2026
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section content-section" id="contenidos" aria-labelledby="sectionsTitle">
+  <div class="container sections-layout">
+    <div class="sections-intro">
+      <span class="kicker">EXPLORA</span>
+      <h2 id="sectionsTitle">Conoce nuestras secciones</h2>
+      <p>Descubre los temas de marzo de 2026 y accede directamente a cada sección.</p>
+      <button class="text-link" data-page="1">Ver revista completa <img class="flecha-svg" src="assets/icons/flecha-derecha.svg" alt="" aria-hidden="true"></button>
+    </div>
+    <div class="sections-list">
+      <button type="button" class="section-card" data-page="4" aria-label="Abrir El Sabor del ISSSTE, página 4" style="--section-color:#9d2449;--section-image:url('assets/pages/04.webp');--section-icon:url('assets/icons/cubiertos.svg')">
+        <span class="section-icon" aria-hidden="true"></span>
+        <span class="section-card-body"><strong>El Sabor del ISSSTE</strong><small>Página 4</small></span>
+        <span class="section-arrow" aria-hidden="true"><img class="flecha-svg" src="assets/icons/flecha-derecha.svg" alt="" aria-hidden="true"></span>
+      </button>
+      <button type="button" class="section-card" data-page="10" aria-label="Abrir Prevención, página 10" style="--section-color:#761738;--section-image:url('assets/pages/10.webp');--section-icon:url('assets/icons/virus.svg')">
+        <span class="section-icon" aria-hidden="true"></span>
+        <span class="section-card-body"><strong>Prevención</strong><small>Página 10</small></span>
+        <span class="section-arrow" aria-hidden="true"><img class="flecha-svg" src="assets/icons/flecha-derecha.svg" alt="" aria-hidden="true"></span>
+      </button>
+      <button type="button" class="section-card" data-page="16" aria-label="Abrir Mes de..., página 16" style="--section-color:#b76a88;--section-image:url('assets/pages/16.webp');--section-icon:url('assets/icons/calendario.svg')">
+        <span class="section-icon" aria-hidden="true"></span>
+        <span class="section-card-body"><strong>Mes de...</strong><small>Página 16</small></span>
+        <span class="section-arrow" aria-hidden="true"><img class="flecha-svg" src="assets/icons/flecha-derecha.svg" alt="" aria-hidden="true"></span>
+      </button>
+      <button type="button" class="section-card" data-page="26" aria-label="Abrir Efemérides, página 26" style="--section-color:#b38e5d;--section-image:url('assets/pages/26.webp');--section-icon:url('assets/icons/efemerides.svg')">
+        <span class="section-icon" aria-hidden="true"></span>
+        <span class="section-card-body"><strong>Efemérides</strong><small>Página 26</small></span>
+        <span class="section-arrow" aria-hidden="true"><img class="flecha-svg" src="assets/icons/flecha-derecha.svg" alt="" aria-hidden="true"></span>
+      </button>
+      <button type="button" class="section-card" data-page="39" aria-label="Abrir Galería, página 39" style="--section-color:#4d0c27;--section-image:url('assets/pages/39.webp');--section-icon:url('assets/icons/galeria.svg')">
+        <span class="section-icon" aria-hidden="true"></span>
+        <span class="section-card-body"><strong>Galería</strong><small>Página 39</small></span>
+        <span class="section-arrow" aria-hidden="true"><img class="flecha-svg" src="assets/icons/flecha-derecha.svg" alt="" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</section>
+   <section class="section archive" id="hemeroteca">
+    <div class="container">
+     <div class="section-head">
+      <div>
+       <span class="kicker">
+        HEMEROTECA
+       </span>
+       <h2>
+        Hemeroteca digital
+       </h2>
+       <p>
+        Consulta las ediciones de nuestra revista.
+       </p>
+      </div>
+      <div class="year-filter">
+        <span>Año</span>
+
+        <div class="year-dropdown" id="yearDropdown">
+          <button
+            type="button"
+            class="year-trigger"
+            id="yearTrigger"
+            aria-expanded="false"
+            aria-controls="yearOptions"
+            aria-haspopup="true"
+          >
+            <span id="yearSelected">2026</span>
+            <span class="year-arrow" aria-hidden="true"></span>
+          </button>
+
+          <div class="year-options" id="yearOptions" hidden></div>
+        </div>
+      </div>
+     </div>   
+      
+      <div class="archive-grid" id="archiveGrid">
+        <!-- Las revistas se cargarán desde revistas.js -->
+      </div>
+
+      <p class="archive-note">
+        Explora las ediciones disponibles de + Vale Prevenir.
+      </p>
+
+    </div>
+   </section>
+   <section class="about section" id="acerca">
+    <div class="container about-inner">
+     <div>
+      <span class="kicker">
+       SOBRE LA REVISTA
+      </span>
+      <h2>
+       + Vale Prevenir
+      </h2>
+     </div>
+     <p>
+      Revista digital de la
+      <strong>
+       Subdirecci&oacute;n de Prevenci&oacute;n y Protecci&oacute;n a la Salud
+      </strong>
+      del ISSSTE. Este prototipo presenta la edici&oacute;n de julio de 2026 y permite consultarla directamente, sin servicios externos (PLACEHOLDER).
+     </p>
+    </div>
+   </section>
+  </main>
+  <footer class="footer-institucional" aria-label="Pie de página institucional">
+  <div class="container footer-grid">
+    <div class="footer-identidad">
+      <img class="footer-gobmex" src="assets/logos/gobmex.svg" alt="Gobierno de México">
+      <p class="footer-revista">+ Vale Prevenir · Revista digital del ISSSTE</p>
+    </div>
+    <nav class="footer-directorio" aria-label="Directorio del sitio">
+      <h2>Secciones</h2>
+      <a href="#inicio">Inicio</a>
+      <a href="#contenidos">En esta edición</a>
+      <a href="#hemeroteca">Hemeroteca</a>
+      <a href="#acerca">Acerca de la revista</a>
+    </nav>
+    <div class="footer-social">
+  <h3>Redes sociales</h3>
+
+  <div class="footer-social-links">
+    <a href="https://www.facebook.com/ISSSTE.MX/?locale=es_LA"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Facebook del ISSSTE">
+      <img src="assets/icons/facebook.svg" alt="">
+    </a>
+
+    <a href="https://www.instagram.com/issste.mx/?hl=es"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Instagram del ISSSTE">
+      <img src="assets/icons/instagram.svg" alt="">
+    </a>
+
+    <a href="https://x.com/ISSSTE_mx"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="X del ISSSTE">
+      <img src="assets/icons/twitter.svg" alt="">
+    </a>
+
+    <a href="https://www.youtube.com/@issste_mx"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="YouTube del ISSSTE">
+      <img src="assets/icons/youtube.svg" alt="">
+    </a>
+  </div>
+</div>
+  </div>
+  <div class="container footer-aviso">Prototipo local de demostración · No es un sitio oficial publicado del ISSSTE ni del Gobierno de México.</div>
+</footer>
+  <div aria-labelledby="readerTitle" aria-modal="true" class="reader" hidden="" id="reader" role="dialog">
+   <div class="reader-top">
+    <div class="reader-heading">
+     <img class="reader-brand-logo" src="assets/logos/vale-prevenir-mono-large.svg" alt="+ Vale Prevenir"/><strong class="sr-only" id="readerTitle">+ Vale Prevenir</strong>
+     <small>
+      Marzo 2026
+     </small>
+    </div>
+    <div class="reader-tools">
+     <button type="button" id="bookModeBtn" title="Activar modo libro" aria-pressed="false"><span class="reader-icon icon-open-book" aria-hidden="true"></span><span class="reader-tool-label">Modo libro</span></button>
+     <button type="button" id="flipEffectBtn" title="Activar animación de hojas (experimental)" aria-pressed="false" hidden><span class="reader-icon icon-open-book" aria-hidden="true"></span><span class="reader-tool-label">Animar hojas</span></button>
+      <button id="tocBtn" title="&Iacute;ndice"><span class="reader-icon icon-index" aria-hidden="true"></span><span class="reader-tool-label">Índice</span></button>
+     <button id="zoomOut" title="Reducir"><span class="reader-icon icon-zoom-out" aria-hidden="true"></span></button>
+     <span id="zoomLabel">
+      100%
+     </span>
+     <button id="zoomIn" title="Ampliar"><span class="reader-icon icon-zoom-in" aria-hidden="true"></span></button>
+     <a download="" href="assets/revista-marzo-2026.pdf" title="Descargar PDF">
+      <span class="reader-icon icon-descarga" aria-hidden="true"></span><span class="reader-tool-label">PDF</span>
+     </a>
+     <button aria-label="Cerrar lector" class="close" id="closeReader" title="Cerrar lector"><span class="reader-icon icon-close" aria-hidden="true"></span></button>
+    </div>
+   </div>
+   <div class="reader-main">
+    <aside class="toc" hidden="" id="toc">
+     <strong>
+      &Iacute;ndice de contenidos
+     </strong>
+     <button data-go="1">
+      Portada
+      <span>
+       1
+      </span>
+     </button>
+     <button data-go="2">
+      &Iacute;ndice
+      <span>
+       2
+      </span>
+     </button>
+     <button data-go="3">
+      Carta del subdirector
+      <span>
+       3
+      </span>
+     </button>
+     <button data-go="4">
+      El Sabor del ISSSTE
+      <span>
+       4
+      </span>
+     </button>
+     <button data-go="10">
+      Sarampi&oacute;n
+      <span>
+       10
+      </span>
+     </button>
+     <button data-go="16">
+      Salud de la mujer
+      <span>
+       16
+      </span>
+     </button>
+     <button data-go="26">
+      Efem&eacute;rides
+      <span>
+       26
+      </span>
+     </button>
+     <button data-go="39">
+      Galer&iacute;a
+      <span>
+       39
+      </span>
+     </button>
+     <button data-go="49">
+      Concurso de dibujo infantil
+      <span>
+       49
+      </span>
+     </button>
+    </aside>
+    <div class="page-stage" id="pageStage">
+     <div id="flipBook" class="flip-book" hidden aria-label="Revista en modo libro"></div>
+     <div class="reader-pages" id="readerPages"><img alt="Página 1 de la revista" id="readerImage" src="assets/pages/01.webp"/><img alt="Página derecha" id="readerImageRight" hidden></div>
+    </div>
+   </div>
+   <div class="reader-bottom">
+    <button type="button" aria-label="Página anterior" id="prevPage">
+     <span class="reader-icon icon-flecha-izquierda" aria-hidden="true"></span> Anterior
+    </button>
+    <div class="page-picker">
+     <label for="pageInput">
+      P&aacute;gina
+     </label>
+     <input id="pageInput" max="58" min="1" type="number" value="1"/>
+     <span>
+      de 58
+     </span>
+    </div>
+    <button type="button" aria-label="Página siguiente" id="nextPage">
+     Siguiente <span class="reader-icon icon-flecha-derecha" aria-hidden="true"></span>
+    </button>
+   </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+  <script src="revistas.js"></script>
+  <script src="script.js"></script>
+  <script src="indices.js"></script>
+  <script src="selector-anio.js"></script>
+ </body>
+</html>
